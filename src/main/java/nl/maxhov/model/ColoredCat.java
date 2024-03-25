@@ -28,6 +28,9 @@ public class ColoredCat extends Cat {
     this.color = color;
   }
 
+  public ColoredCat() {
+  }
+
   public String getColor() {
     return color;
   }

@@ -47,28 +47,24 @@ public class SampleTest extends AbstractSampleTest {
                 "edges": [
                   {
                     "node": {
-                      "id": "1",
                       "name": "Black Cat",
                       "color": "Black"
                     }
                   },
                   {
                     "node": {
-                      "id": "2",
                       "name": "White Cat",
                       "color": "White"
                     }
                   },
                   {
                     "node": {
-                      "id": "3",
                       "name": "Gray Cat",
                       "color": "Gray"
                     }
                   },
                   {
                     "node": {
-                      "id": "4",
                       "name": "Brown Cat",
                       "color": "Brown"
                     }

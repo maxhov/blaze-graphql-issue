@@ -2,7 +2,6 @@ query ColoredCats {
     coloredCats {
         edges {
             node {
-                id
                 name
                 color
             }
