@@ -1,0 +1,7 @@
+schema: src/main/resources/graphql/schema.graphqls
+documents: '**/*.graphql'
+extensions:
+  endpoints:
+    app:
+      introspect: true
+      url: http://localhost:12345/graphql

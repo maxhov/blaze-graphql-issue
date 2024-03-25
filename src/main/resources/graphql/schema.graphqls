@@ -1,0 +1,51 @@
+# This file was generated. Do not edit manually.
+
+schema {
+    query: Query
+}
+
+"Indicates an Input Object is a OneOf Input Object."
+directive @oneOf on INPUT_OBJECT
+
+type CatView {
+    id: ID!
+    name: String
+}
+
+type CatViewConnection {
+    edges: [CatViewEdge]!
+    pageInfo: PageInfo!
+}
+
+type CatViewEdge {
+    cursor: String!
+    node: CatView!
+}
+
+type ColoredCatView {
+    id: ID!
+    name: String
+    color: String
+}
+
+type ColoredCatViewConnection {
+    edges: [ColoredCatViewEdge]!
+    pageInfo: PageInfo!
+}
+
+type ColoredCatViewEdge {
+    cursor: String!
+    node: ColoredCatView!
+}
+
+type PageInfo {
+    endCursor: String
+    hasNextPage: Boolean!
+    hasPreviousPage: Boolean!
+    startCursor: String
+}
+
+type Query {
+    cats: CatViewConnection
+    coloredCats: ColoredCatViewConnection
+}

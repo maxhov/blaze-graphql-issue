@@ -1,0 +1,10 @@
+query Cats {
+    cats {
+        edges {
+            node {
+                id
+                name
+            }
+        }
+    }
+}
